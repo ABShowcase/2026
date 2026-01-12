@@ -1,9 +1,20 @@
 {
   "name": "architectural-showcase",
   "version": "1.0.0",
-  "main": "backend/server.js",
+  "main": "architectural-showcase/backend/server.js",
   "scripts": {
-    "start": "cd backend && npm start",
-    "postinstall": "cd backend && npm install"
+    "start": "cd architectural-showcase/backend && npm start",
+    "postinstall": "cd architectural-showcase/backend && npm install"
   }
 }
+```
+
+5. Click **"Commit changes"**
+
+Also fix the **Procfile**:
+
+6. Click the **`Procfile`** file
+7. Click **edit** (pencil icon)
+8. **Delete everything** and paste:
+```
+web: cd architectural-showcase/backend && npm install && npm start
