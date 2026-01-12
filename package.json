@@ -1,0 +1,15 @@
+{
+  "name": "architectural-showcase",
+  "version": "1.0.0"
+}
+```
+
+8. Click **"Commit changes"**
+
+Now update the **Procfile**:
+
+9. Click the **`Procfile`** file
+10. Click **edit**
+11. Delete everything and paste:
+```
+web: cd architectural-showcase/backend && npm install && npm start
