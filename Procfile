@@ -1,1 +1,2 @@
-web: cd backend && npm install && npm start
+release: cd architectural-showcase/frontend && npm install && npm run build
+web: cd architectural-showcase/backend && npm install && npm start
